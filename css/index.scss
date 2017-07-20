@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+li{
+    list-style: none;
+}
+.clearfix:after{
+    content:"";
+    clear:both;
+    display: block;
+}
+.box{
+    width:330px;
+    background:#525A5A;
+    h2{
+        width:300px;
+        margin:0 auto;
+        color:#fff;
+        padding:20px 0;
+    }
+    .money,.time{
+        width:300px;
+        margin:10px auto;
+        p{
+            color:#B9BCBC;
+            font-size:12px;
+            span:nth-child(1){
+                float:left;
+            }
+            span:nth-child(2){
+                float:right;
+            }
+        }
+        .money_two,.time_two{
+            width:100%;
+            position: relative;
+            padding-top:10px;
+            input{
+                width:80%;
+                height:40px;
+                float:left;
+            }
+            .btn{
+                width:20%;
+                float:right;
+                background:#fff;
+                height:40px;
+                border:0;
+                
+            }
+            i{
+                position: absolute;
+                top:12px;
+                right:20px;
+                color:#808080;
+            }
+        }
+    }
+    
+    
+    .money_ul{
+        width:300px;
+        left:15px;
+        top:142px;
+        cursor: pointer;
+        position: absolute;
+        z-index:2;
+        display: none;
+        background:#fff;
+        li{
+            padding:5px 20px;
+        }
+        li:hover{
+            background:#C6D6E7;
+        }
+    }
+    
+    .time_ul{
+        width:300px;
+        left:15px;
+        top:216px;
+        cursor: pointer;
+        position: absolute;
+        z-index:2;
+        display: none;
+        background:#fff;
+        li{
+            padding:5px 20px;
+        }
+        li:hover{
+            background:#C6D6E7;
+        }
+    }
+    
+    
+    .sousuo{
+        width:300px;
+        margin:20px auto;
+        input{
+            background:#0094EF;
+            border:0;
+            width:100%;
+            text-align: center;
+            color:#fff;
+            padding:10px 0;
+        }
+    }
+    .btm{
+        color:#B9BAC4;
+        font-size:12px;
+        text-align: center;
+        padding-bottom: 120px;
+    }
+}
